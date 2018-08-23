@@ -88,11 +88,11 @@ p {
 
 p.chapter-begin:first-letter {
   display: inline-block;
-  margin: 5vw 1vw .1vw 0;
+  margin: 2vw 1vw .1vw 0;
   float: left;
   line-height: 10vw;
-  font-size: 25vw;
-  color: hsla(11, 50%, 50%, 1);
+  font-size: 20vw;
+  color: hsla(0, 0%, 0%, 1);
 }
 
 .center {
@@ -100,8 +100,13 @@ p.chapter-begin:first-letter {
   margin:0 auto;
 }
 
+.right {
+  float: right;
+  text-align: right;
+}
+
 .small {
-  font-size: 80%;
+  font-size: 70%;
 }
 
 
@@ -130,4 +135,29 @@ blockquote:after {
     line-height: 0.4vw;
     margin-left: 0.5vw;
     vertical-align: -0.9vw;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+.bottom {
+  position: absolute;
+  bottom: 5vw;
+}
+
+label{
+  font-size: 3vw;
+}
+
+.white{
+    color: white;
 }

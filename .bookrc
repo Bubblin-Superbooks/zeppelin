@@ -6,5 +6,6 @@
     "HEAD": "html"
   },
   "name": "Zeppelin",
-  "type": "text"
+  "type": "text",
+  "book_id": 640
 }
